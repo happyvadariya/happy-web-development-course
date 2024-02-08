@@ -3,12 +3,16 @@
 #### Question 1: Are the HTML tags and elements the same thing?
 
   * Html tags & elements are not same.
+  * HTML tag are used to hold HTML Elements.
+  * HTML elements are used to hold HTML Content.
+  * Example : `<p>, <div>, <h1> to <h6>` are tags.
+  * Example : `<body>, <html>, <head>` are elements.
   
 #### Question 2: What are tags and attributes in HTML?
   
-* Tag is define root of elements
+* HTML tag are used to hold HTML Elements
 * Example : `<p>, <div>, <h1> to <h6>`
-* Attribute is define tag of element... Attributes are used to provide information to the tag 
+* Attributes provide additional information about elements.
 * Example : `<class>, <id>, <name>`
 
 #### Question 3: What are void elements in HTML? With Example.
@@ -143,12 +147,12 @@
 #### Question 10: How can we club two or more rows or columns into a single row or column in an HTML table? With Example. 
 
 * Using "rowspan" & "colspan"
-* Two or more row merge then using colspan
-* Two or more col merge then using rowspan
+* Two or more row cell merge then using rowspan attribute.
+* Two or more col cell merge then using colspan attribute.
 
 ```
 <body>
-    <table>
+    <table border="1">
         <tr>
             <td colspan="2"> Hyy </td>
             <td> Hello </td>
@@ -168,8 +172,10 @@
 
 #### Question 11: What is the difference between a block-level element and an inline element?
 
-* Elements occupying as much space as required are called inline elements.
-* Elements that occupy the entire space except where required are called Block elements.
+* Block elements always start from a new line.
+* Inline elements never start from a new line.
+* Block elements cover space from left to right as far as it can go. Example: `<p>, <div>`
+* Inline elements only cover the space as bounded by the tags in the HTML element. Example: `<b>, <i>, <u>`
 
 
 #### Question 12: How to create a Hyperlink in HTML? With Example.
@@ -234,6 +240,11 @@
 
 #### Question 19: What is difference between HTML and XHTML?
 
+* HTML (Hypertext Markup Language)
+* xHTML (Extensible Hypertext Markup Language)
+* HTML & XHTML used creating web pages.
+* HTML is not necessary to close the tags in the order they are opened.
+* XHTML is necessary to close the tags in the order they are opened.
 * HTML rules & syntax are flexible.
 * XHTML rules are strict & syntax properly follow. XML rules apply.
 
@@ -241,8 +252,8 @@
 
 #### Question 20: What are logical and physical tags in HTML?
 
-* Physical Tags are understand mostly user.
-* Logical Tags are understand mostly user & computer (program) both.
+* Physical Tags are used in HTML to provide actual physical formatting to the text.
+* Logical Tags are used in HTML to display the text according to the logical styles. 
 
 * Physical Tags: `<b>`, `<i>`, `<u>`
 * Logical Tags: `<strong`, `<em>`, `<strike>`
