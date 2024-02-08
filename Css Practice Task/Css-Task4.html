@@ -18,30 +18,31 @@
             height: 600px;
         }
 
-        .box:nth-child(1){
+        :nth-child(1){
             background-image: url(../images/image-new.png);
-            width: 50%;
-            height: 600px;
-        }
+            background-repeat: no-repeat;
+            background-size: 600px 300px;
+            background-position: 50%;
+        } 
 
-        .box:nth-child(1):nth-child(1){
+        :nth-child(2){
             background-image: url(../images/peng-img.png), linear-gradient(blue, purple);
-            background-size: 160px 200px, cover;
+            background-size: 160px 200px, 100%;
             background-origin: border-box;
-            background-repeat: round;
+            background-repeat: round, no-repeat;
         }
 
-        .box:nth-child(1):nth-child(1):nth-child(1){
+        :nth-child(3){
             background-image:url(../images/peng-img.png), url(../images/image1.avif);
-            background-size: 360px 400px, cover;
-            background-repeat: no-repeat, space;
-            background-position: 50% 45%;
+            background-size: 360px 400px, 80% 800px;
+            background-repeat: no-repeat, no-repeat;
         }
 
-        .box:nth-child(1):nth-child(1):nth-child(1):nth-child(1){
+        :nth-child(4){
             background-image:url(../images/giphy.gif), url(../images/image.jpg);
-            background-size: 300px 250px, cover;
-            background-position: 49% 75%;
+            background-size: 300px 250px, 800px 500px;
+            background-repeat: no-repeat;
+            background-position: 50%;
         }
 
     </style>
