@@ -36,9 +36,21 @@
 
         .box{
             height: auto;
-            width: 4 0%;
+            width: 40%;
+            z-index: 0;
+            position: absolute;
         }
         
+        .box .orange img{
+            position: absolute;
+            left: -110px;
+            top: 50px;
+            height: auto;
+            width: 300px;
+            z-index: 1;
+        }
+
+
         .square{
             position: absolute;
             top: 50px;
@@ -94,6 +106,9 @@
 <body>
     <div class="box-main">
         <div class="box">
+            <div class="orange">
+                <img src="../images/orange.png" alt="orange-img">
+            </div>
             <div class="square"></div>
         </div>
         <div class="content">
