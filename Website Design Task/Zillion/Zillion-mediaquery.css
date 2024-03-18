@@ -1,0 +1,101 @@
+
+@media screen and (min-width:1140px){
+    header{
+        width: 100%;
+    }
+}
+
+@media (min-width:670px) and (max-width:1140px) {
+    header{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .wrapper{
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .wrapper nav a{
+        padding: 0px 10px;
+    }
+}
+
+@media (min-width:200px) and (max-width:670px) {
+    .background{
+        height: auto;
+    }
+
+    .menubar {
+        display: block;
+    }
+
+    .wrapper{
+        width: 100%;
+        display: none;
+        justify-content: space-between;
+    }
+    
+    .wrapper nav a{
+        width: 100%;
+        padding: 10px 20px;
+        margin-top: 10px;
+        display: inline-block;
+        justify-content: start;
+        text-align: left;
+        border: 2px solid white;
+        border-radius: 8px;
+    }
+    
+    .header-btn button{
+        width: 100%;
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color: white;
+        color: black;
+    }
+    
+    header{
+        width: 100%;
+        height: auto;
+        padding: 30px 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .background .heading{
+        padding: 100px 100px;
+    }
+
+    .background .heading p{
+        font-size: 30px;
+    }
+
+    .heading-btn .all-btn{
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+
+}
+
+
+@media (min-width:200px) and (max-width:556px) {
+    .background{
+        height: auto;
+    }
+
+    .background .heading{
+        padding: 50px 20px;
+    }
+
+    .background .heading p{
+        font-size: 25px;
+    }
+
+    .background .heading-btn button{
+        margin-top: 30px;
+        padding: 5px 20px;
+    }
+
+}
