@@ -211,6 +211,21 @@ background-image: url('image.png');
 * Multiple web page design the same css file link access the stylesheet.. it is external style sheet benefit.
 * External files occupy less space and code runs faster.
 
+```
+<!-- Make Assignment.css external saprated file & it's link attached in HTML document -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Team Flow</title>
+    
+    <link rel="stylesheet" href="Assignment.css"> 
+
+</head>
+```
+
 
 <br>
 

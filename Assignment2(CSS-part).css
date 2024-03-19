@@ -601,18 +601,3 @@ body{
     margin-top: 10px;
 }
 
-
-/* section 3 work easier */
-
-.work-easier{
-    align-items: center;
-    margin: 50px 50px;
-}
-
-
-.work-easier .cards{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
-
-}
